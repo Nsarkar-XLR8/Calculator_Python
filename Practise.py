@@ -1,19 +1,21 @@
 
-# Making Greeting Text Simulator
 
+'''
+print("<<<---Designing A Basic Calculator--->>>")
+'''
 
-import time
-Name = input("Tell Me Your Name: ")
-hours = int(time.strftime("%H"))
-
-if(hours >=4 and hours <=12):
-    print("Good Morning,",Name)
-elif(hours >=12 and hours <= 16):
-    print("Good Afternoon,",Name)
-elif(hours >=16 and hours<= 19):
-    print("Good Evening,",Name)
-else:
-    print("Good Night,",Name)
+# a = input("Enter The First Number: ")
+# b = input("Enter The Second Number: ")
+#
+# print("The Result Of Summation: ",int(a)+int(b))
+# print("The Result Of Substraction: ",int(a)-int(b))
+# print("The Result Of Multiplication: ",int(a)*int(b))
+# print("The Result Of Division: ",int(a)/int(b))
+# print("The Result Of Power: ",int(a)**int(b))
+# # print("The Result Of Exponential: ",int(a)***int(b))
+# print("The Result Of Modulus: ",int(a)%int(b))
+# print("The Result Of Floor Division: ",int(a)//int(b))
+# print("The Result Of Ceil Division: ",math.ceil(int(a)/int(b)))
 
 
 
